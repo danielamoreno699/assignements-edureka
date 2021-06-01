@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script> 
+    if (typeof(Storage) != "undefined") {
+
+        localStorage.setItem("name", "daniela");
+        localStorage.setItem("birth", "21/01/92");
+
+        document.getElementById("data").innerHTML = localStorage.getItem("name");
+        document.getElementById("data").innerHTML = localStorage.getItem("birth");
+
+    }else  {
+
+        document.getElementById("data").innerHTML = "No Browser support";}
+    
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
