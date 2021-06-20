@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arrays of languages </title>
+</head>
+<body>
+
+    
+    <p>click here to display programming languages </p>
+    <button  onclick= "languages()" >click </button>
+    <p id = "ArrDisp" > </p>
+
+
+    <script>
+    function languages() {
+        var index ; 
+        var text = "<ul>";
+        var prog = [  "javascript", "python", "html", "java", "SQlite", "html", "css", "nodejs"];
+     
+        for (index = 0; index < prog.length; index++)  {
+            text += "<li>" + prog[index] + "</li>" 
+
+        }
+        text +=  '</ul>';
+        document.getElementById("ArrDisp").innerHTML = text;
+
+        }
+
+    </script>
+</body>
+</html>

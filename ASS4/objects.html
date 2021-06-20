@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p id = emp1> </p>
+    <p id = emp2 ></p>
+
+<script>
+
+    function InformationEmployee ( firstName, lastName, employeeNumber, age, department   )
+    {
+
+        this. firstName = firstName;
+        this.lastName = lastName;
+        this.employeeNumber = employeeNumber;
+        this.age = age;
+        this.department = department;
+
+
+    }
+
+    var employee1 = new InformationEmployee( "Andrew", "Collins", "78888", "28", "finance" );
+    var employee2 = new InformationEmployee ("Sara", "Martin", "45555" , "30", "marketing" );
+
+    document.getElementById("emp1").innerHTML=
+     employee1.firstName 
+    + employee1.lastName + 
+    "is working in " 
+    + employee1.department;
+      "here" + employee1.firstName 
+      + employee1.lastName + "and" + employee1.department + "is the stored employee's department"
+    
+      document.getElementById("emp2").innerHTML=
+     employee2.firstName + employee2.lastName + "is working in " + employee2.department;
+      "here" + employee2.firstName + employee2.lastName + "and" + employee2.department + "is the stored employee's department"
+  
+
+
+
+</script>
+
+
+    
+</body>
+</html>
