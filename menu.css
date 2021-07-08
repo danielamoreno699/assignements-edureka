@@ -1,0 +1,156 @@
+
+
+
+#boton {
+
+    width: 135px;
+    height: 44px;
+    margin-left:300px;
+    
+
+
+
+}
+
+#boton2 {
+
+    width: 135px;
+    height: 44px;
+    margin-left:730px;
+    margin-top: -45px ;
+
+}
+
+.row{
+    
+    text-align: center;
+
+
+}
+
+.title{
+    margin-left: 320px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.col-sm-4 > h2{
+   text-decoration: underline;
+   font-weight: bold;
+
+}
+
+.col-sm-4  {
+    
+    align-items: center;
+    background-color: #dce5eb;
+    width: 455px;
+    height: 600px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 10px ;
+    left: 1450px;
+    top: -150px;
+   
+   
+}
+
+.form-group.row input , #ciudad   {
+    
+    
+    width:267px;
+    height: 32px;
+ 
+ 
+ }
+
+ .col-sm-4  .btn.btn-success{
+       margin-left: 100px;
+       padding: 10px 20px;
+
+}
+
+#predict{
+    right: 500px;
+    height: 500px;
+    width: 450px;
+    bottom: -100px ;
+
+
+}
+
+
+#graficas{
+    
+    height: 500px ;
+    width: 350px;
+    top: -400px;
+
+}
+
+
+
+.box > .icon {
+    
+    text-align: center; position: relative;
+ }
+.box > .icon > .image { 
+    position: relative; z-index: 2; margin: auto; width: 88px; height: 88px; border: 8px solid white; line-height: 88px; border-radius: 50%; background: #006494; vertical-align: middle; 
+}
+.box > .icon:hover > .image { 
+    background: #333; 
+}
+.box > .icon > .image > i { 
+    font-size: 36px !important; color: #fff !important; 
+}
+.box > .icon:hover > .image > i { 
+    color: white !important; 
+}
+.box > .icon > .info { 
+    margin-top: -24px; background: rgba(0, 0, 0, 0.04); border: 1px solid #e0e0e0; padding: 15px 0 10px 0; 
+}
+.box > .icon:hover > .info { 
+    background: rgba(0, 0, 0, 0.04); border-color: #e0e0e0; color: white; 
+}
+.box > .icon > .info > h3.title { 
+    font-family: "Robot",sans-serif !important; font-size: 16px; color: #222; font-weight: 700; 
+}
+.box > .icon > .info > p { 
+    font-family: "Robot",sans-serif !important; font-size: 13px; color: #666; line-height: 1.5em; margin: 20px;
+}
+.box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a { 
+    color: #222; 
+}
+.box > .icon > .info > .more a { 
+    font-family: "Robot",sans-serif !important; font-size: 12px; color: #222; line-height: 12px; text-transform: uppercase; text-decoration: none; 
+}
+.box > .icon:hover > .info > .more > a { 
+    color: #fff; padding: 6px 8px; background-color: #006494; 
+}
+.box .space { 
+    height: 30px; 
+}
+
+#fa{
+
+    right: 850px;
+    
+
+}
+#yt{
+
+    right: 850px;
+    
+
+}
+.page-footer.font-small.pt-4{
+    position: relative ;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666;
+    color: white;
+    text-align: center;
+}
