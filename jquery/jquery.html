@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<head>
+    
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            
+            $("#btn").click(function(){
+                $('<input>').attr({type:'text', id = 'address', name = 'address'}).appendTo('form');
+                $('<input>').attr({type:'email', id = 'email', name = 'email_address'}).appendTo('form');
+                $('<input>').attr({type:'text', id = 'date', name = 'birth_date'}).appendTo('form');
+                $('<input>').attr({type:'text', id = 'last_name', name = 'last_name'}).remove('form');
+                $('#email').attr({type:'email'})
+
+        });
+
+        $("#btn2").click(function(){
+
+            $('#email').attr({type:'email'})
+            $('#email').attr({id :'email'})
+
+        });
+
+
+        </script>
+</head>     
+    
+        
+
+   
+
+</head>
+<body>
+
+    <form>
+        <label for="name">First name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="last_name">Last.name:</label><br>
+        <input type="text" id="last_name" name="last_name">
+
+
+    </form>
+
+
+    <button type="button" id= "btn">Click button 1</button>
+    <button type="button" id= "btn2">Click button 2</button>
+
+
+</body>
+</html>
