@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+
+    <script type="text/javascript" src="https://www.technicalkeeda.com/js/javascripts/plugin/jquery.js"></script>
+    <script type="text/javascript" src="https://www.technicalkeeda.com/js/javascripts/plugin/jquery.validate.js"></script>
+
+    <script>
+
+
+    function validatepassword(){
+
+        let validate = $("#loginForm").validate({
+
+            rules: {
+                password: {
+                    required: true,
+                    minlength: 5,
+                    uppercase: 1,
+                    confirmpassword: {
+                        equalTo: "#password"
+                }
+
+
+        },
+    
+                messages: {
+                password: " Enter Password",
+                confirmpassword: " Enter Confirm Password Same as Password"
+            }
+        });
+
+        if (validator.form()) {
+            alert('Sucess');
+        }
+    }
+
+
+
+    </script>
+</head>
+<body>
+     <form method="post" id="loginForm" name="loginForm">
+
+            <label for="password">password</label>
+            <input type="text" name="password" id="password" />
+
+            <label for="confirmpassword">confirmpassword</label>
+            <input type="text" name="confirmpassword" id="confirmpassword" />
+
+            <button type="submit">Register</button>
+
+
+    </form>
+</body>
+</html>
