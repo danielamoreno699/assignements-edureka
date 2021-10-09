@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css"/>
+
+    <script src=  "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Registration</h2>
+        <form action="" name="registration">
+
+
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" id="firstname" />
+
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname" />
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" />
+
+            <button type="submit">Register</button>
+
+        </form>
+    </div>
+
+
+
+    <script type = "text/javascript">
+        $(document).ready(function (){
+
+            
+    $('#btn-submit').click(function() {  
+ 
+        
+        $(".error").hide();
+        let hasError = false;
+
+    });
+});
+        function validateUser()
+
+        let userVname = $('#firstname').val();
+        let lastVname = $('#lastname').val();
+
+ 
+
+        if (userVname.lenght == '')  {  
+            $("#UserVname").after('<span class="error">Please enter your email address.</span>');
+            hasError = true;
+        }
+
+        
+
+        if (lastVname.lenght == '') {  
+            $("#lastVname").after('<span class="error">Please enter your email address.</span>');
+            hasError = true;
+
+        } 
+        
+        function isEmail(email){
+            const emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+            const emailblockReg = /^([\w-\.]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)([\w-]+\.)+[\w-]{2,4})?$/;
+
+            let emailaddressVal = $("#email").val();
+                
+            if (emailaddressValVl == " "){
+            
+            $("#UserEmail").after('<span class="error">Please enter your email address.</span>');
+                hasError = true;
+             }
+
+            else (!emailReg.test(emailaddressVal)) {
+            
+                $("#UserEmail").after('<span class="error">Enter a valid email address.</span>');
+                hasError = true;
+            }
+
+            else (!emailblockReg.test(emailaddressVal)) {
+                $("#UserEmail").after('<span class="error">No yahoo, gmail or hotmail emails.</span>');
+                hasError = true
+             } 
+        
+        }
+
+
+
+
+
+        
+
+            
+
+
+
+
+        }) 
+        
+         
+
+
+
+        
+
+
+
+    
+    
+    
+    
+    </script>
+
+
+
+
+
+</body>
+</html>
