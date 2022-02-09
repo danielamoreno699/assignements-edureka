@@ -1,0 +1,25 @@
+
+.ui-btn {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 0px;
+}
+
+
+ul.nav li{
+margin: 0;
+color: rgb(148, 25, 25);
+background-color: #0d0ac2;
+padding-top: 6px;
+padding-right: 6px;
+padding-bottom: 5px;
+padding-left: 6px;
+}
+
+
+ul.nav li:hover {
+background-color: #ff0b0b;
+color: #FF0;
+
+}
+

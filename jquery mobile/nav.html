@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="jquery.mobile-1.0rc1.css" />
+    <script src = "main.js "></script>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+ 
+
+
+</head>
+<body>
+    <div data-role="page" id="header">
+        <div data-role="header">
+            <h1>Sale Order</h1>
+        </div>
+            <div data-role="navbar" id="nav1">
+                <ul class="nav">
+
+                        <li><a href="#" data-href="linemain" class="ui-btn-active">LineMain</a>
+                        </li>
+                        <li><a href="#" data-href="l1">l1</a>
+                        </li>
+                        <li><a href="#" data-href="l2">l2</a>
+                        </li>
+                        <li><a href="#" data-href="l3">l3</a>
+                        </li>
+
+                    </ul>
+                    <div style="border-top: 0px" class="ui-btn-active">&nbsp</div>
+                </div>
+            
+
+    </div>
+    <script>
+       document.getElementById("nav1").addEventListener("click", function() {
+        alert("Hello World!");
+});
+
+
+    </script>
+
+
+</body>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+
+</head>
+<body>
+
+
+
+    <div data-role="page">
+        <div data-role="main" class="ui-content">
+          <form method="post" action="demoform.asp">
+            <label for="fname">First name:</label>
+            <input type="text" name="fname" id="fname">
+            <label for="lname">last name:</label>
+          <input type="text" name= "lname" id= "lname" >
+          <fieldset data-role="controlgroup">
+            <legend>Choose your gender:</legend>
+             <label for="male">Male</label>
+                 <input type="radio" name="gender" id="male" value="male">
+                 <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" value="female">	
+        </fieldset>
+                <input type="submit" data-inline="true" value="Submit">
+                <fieldset>
+                  <label for="day">Select As Many Days As You'd Like:</label>
+                  <select name="day" id="day" multiple="multiple" data-native-menu="false">
+                    <option>Day</option>
+                    <option value="mon">Monday</option>
+                    <option value="tue">Tuesday</option>
+                    <option value="wed">Wednesday</option>
+                    <option value="thu">Thursday</option>
+                    <option value="fri">Friday</option>
+                    <option value="sat">Saturday</option>
+                    <option value="sun">Sunday</option>
+                  </select>
+                </fieldset>
+                <input type="submit" data-inline="true" value="Submit">
+
+          </form>
+        </div>
+    </div>
+    
+    
+  
+  
+  
+  
+
+
+</body>
+</html>
